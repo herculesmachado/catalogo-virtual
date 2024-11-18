@@ -48,11 +48,12 @@ h1 {
 /* MOBILE */
 @media screen and (max-width: 480px) {
   #header {
+    height: 100vh;
     background-position: right;
   }
 
   .container-header {
-    height: 85vh;
+    height: 70vh;
     padding-left: 1rem;
   }
 
