@@ -2,6 +2,13 @@ import Cards from "./components/cards";
 import "./App.css";
 
 import p1 from '../src/images/10.png'
+import p2 from '../src/images/11.png'
+import p3 from '../src/images/12.png'
+import p4 from '../src/images/13.png'
+import p5 from '../src/images/8.png'
+import p6 from '../src/images/9.png'
+import p7 from '../src/images/3.png'
+
 
 function App() {
   return (
@@ -33,38 +40,38 @@ function App() {
                   valor={200}
                 />
                 <Cards
-                  imagem="../src/images/13.png"
+                  imagem={p2}
                   nome="Batons Kisses Me"
                   valor={200}
                 />
                 <Cards
-                  imagem="../src/images/12.png"
+                  imagem={p3}
                   nome="Batons Kisses Me"
                   valor={200}
                 />
-                            <Cards
-                imagem="../src/images/11.png"
-                nome="Batons Kisses Me"
-                valor={200}
-                            />
-                
-                            <Cards
-                imagem="../src/images/3.png"
-                nome="Batons Kisses Me"
-                valor={200}
-                            />
-                
-                
-                            <Cards
-                imagem="../src/images/8.png"
-                nome="Batons Kisses Me"
-                valor={200}
+                <Cards
+                  imagem={p4}
+                  nome="Batons Kisses Me"
+                  valor={200}
                 />
-                
-                            <Cards
-                imagem="../src/images/9.png"
-                nome="Batons Kisses Me"
-                valor={200}
+
+                <Cards
+                  imagem={p5}
+                  nome="Batons Kisses Me"
+                  valor={200}
+                />
+
+
+                <Cards
+                  imagem={p6}
+                  nome="Batons Kisses Me"
+                  valor={200}
+                />
+
+                <Cards
+                  imagem={p7}
+                  nome="Batons Kisses Me"
+                  valor={200}
                 />
               </div>
             </div>
@@ -73,43 +80,43 @@ function App() {
               <p className="title_categ_prod">Iluminador</p>
               <div className="prod_iluminador">
                 <Cards
-                  imagem="../src/images/10.png"
+                  imagem={p1}
                   nome="Batons Kisses Me"
                   valor={200}
                 />
                 <Cards
-                  imagem="../src/images/13.png"
+                  imagem={p2}
                   nome="Batons Kisses Me"
                   valor={200}
                 />
                 <Cards
-                  imagem="../src/images/12.png"
+                  imagem={p3}
                   nome="Batons Kisses Me"
                   valor={200}
                 />
-                            <Cards
-                imagem="../src/images/11.png"
-                nome="Batons Kisses Me"
-                valor={200}
-                            />
-                
-                            <Cards
-                imagem="../src/images/3.png"
-                nome="Batons Kisses Me"
-                valor={200}
-                            />
-                
-                
-                            <Cards
-                imagem="../src/images/8.png"
-                nome="Batons Kisses Me"
-                valor={200}
+                <Cards
+                  imagem={p4}
+                  nome="Batons Kisses Me"
+                  valor={200}
                 />
-                
-                            <Cards
-                imagem="../src/images/9.png"
-                nome="Batons Kisses Me"
-                valor={200}
+
+                <Cards
+                  imagem={p5}
+                  nome="Batons Kisses Me"
+                  valor={200}
+                />
+
+
+                <Cards
+                  imagem={p6}
+                  nome="Batons Kisses Me"
+                  valor={200}
+                />
+
+                <Cards
+                  imagem={p7}
+                  nome="Batons Kisses Me"
+                  valor={200}
                 />
               </div>
             </div>
