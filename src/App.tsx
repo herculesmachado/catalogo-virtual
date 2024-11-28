@@ -1,6 +1,8 @@
 import Cards from "./components/cards";
 import "./App.css";
 
+import p1 from '../src/images/10.png'
+
 function App() {
   return (
     <>
@@ -26,7 +28,7 @@ function App() {
               <p className="title_categ_prod">Batons</p>
               <div className="prod_batons">
                 <Cards
-                  imagem="../src/images/10.png"
+                  imagem={p1}
                   nome="Batons Kisses Me"
                   valor={200}
                 />
