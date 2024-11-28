@@ -82,6 +82,7 @@ h1 {
   }
 
   .container-header {
+    height: 75vh;
     padding-left: 1rem;
   }
 
