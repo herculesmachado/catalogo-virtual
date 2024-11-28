@@ -36,10 +36,40 @@ h1 {
   line-height: 6.5rem;
 }
 
-.subtitle {
+.param {
   color: #ffffff;
   letter-spacing: 1.2rem;
   font-size: 2.5rem;
+}
+
+.subtitle {
+  color: rgba(0, 0, 0, 0.911);
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 3rem;
+}
+
+#cards_container {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+.prod_container {
+  margin: 0 3rem;
+  
+}
+
+.prod_batons, .prod_iluminador {
+  display: flex;
+  gap: 2rem;
+  overflow-x: auto;
+  align-items: center;
+}
+
+.title_categ_prod  {
+  margin-bottom: 1rem;
+  font-size: 2rem;
 }
 
 
@@ -62,7 +92,7 @@ h1 {
     margin-bottom: 0.500rem;
   }
 
-  .subtitle {
+  .param {
     letter-spacing: 0;
     color: white;
     font-size: 2rem;
